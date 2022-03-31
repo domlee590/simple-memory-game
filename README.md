@@ -45,15 +45,19 @@ If you recorded multiple GIFs for all the implemented features, you can add them
 _Note that the paterns in the videos are different, as they are random. The buttons change appearance during pattern play as they are deactivated. They also change appearance when being hovered over._
 
 **Mistake + Score Counters**
+
 ![](https://i.imgur.com/EMRJ5bt.gif)
 
 **Play Speeds Up Each Turn + Winning Game**
+
 ![](https://i.imgur.com/DbM9Tr5.gif)
 
 **Timer Runs Out**
+
 ![](https://i.imgur.com/GMk6II3.gif)
 
 **Starting/Stopping Game Resets Counters (not Score)**
+
 ![](https://i.imgur.com/sZEL0X9.gif)
 
 ## Reflection Questions
