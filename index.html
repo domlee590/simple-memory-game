@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Hello world!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <div class="center">
+      <h1>Light and Sound Memory Game</h1>
+      <p>
+        Welcome to the game. You are allowed 2 mistakes per game and have 10
+        seconds to make your guesses.
+      </p>
+      <button id="startBtn" onclick="startGame()">Start</button>
+      <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
+      <mark id="score">Score: 0</mark>
+      <mark id="mistakes">Mistakes: 0</mark>
+      <mark id="time">Seconds: 10</mark>
+      <div id="gameButtonArea">
+        <button
+          id="button1"
+          onclick="guess(1)"
+          onmousedown="play(1); lightButton(1);"
+          onmouseup="stop(1); clearButton(1);"
+        >
+          <img
+            id="img1"
+            class="hidden"
+            src="https://cdn.glitch.global/bab38932-9d77-446e-b294-79cd89de870c/Grass.jpeg?v=1648590653212"
+            height="100%"
+            width="100%"
+          />
+          <audio
+            id="sound1"
+            src="https://cdn.glitch.global/bab38932-9d77-446e-b294-79cd89de870c/birds?v=1648600502795"
+          />
+        </button>
+        <button
+          id="button2"
+          onclick="guess(2)"
+          onmousedown="play(2); lightButton(2);"
+          onmouseup="stop(2); clearButton(2);"
+        >
+          <img
+            id="img2"
+            class="hidden"
+            src="https://cdn.glitch.global/bab38932-9d77-446e-b294-79cd89de870c/Water.jpg?v=1648589999281"
+            height="100%"
+            width="100%"
+          />
+          <audio
+            id="sound2"
+            src="https://cdn.glitch.global/bab38932-9d77-446e-b294-79cd89de870c/water?v=1648601615607"
+          />
+        </button>
+        <button
+          id="button3"
+          onclick="guess(3)"
+          onmousedown="play(3); lightButton(3);"
+          onmouseup="stop(3); clearButton(3);"
+        >
+          <img
+            id="img3"
+            class="hidden"
+            src="https://cdn.glitch.global/bab38932-9d77-446e-b294-79cd89de870c/Bricks.jpeg?v=1648596409915"
+            height="100%"
+            width="100%"
+          />
+          <audio
+            id="sound3"
+            src="https://cdn.glitch.global/bab38932-9d77-446e-b294-79cd89de870c/bricks?v=1648601710056"
+          />
+        </button>
+        <button
+          id="button4"
+          onclick="guess(4)"
+          onmousedown="play(4); lightButton(4);"
+          onmouseup="stop(4); clearButton(4);"
+        >
+          <img
+            id="img4"
+            class="hidden"
+            src="https://cdn.glitch.global/bab38932-9d77-446e-b294-79cd89de870c/Sand.jpg?v=1648589996495"
+            height="100%"
+            width="100%"
+          />
+          <audio
+            id="sound4"
+            src="https://cdn.glitch.global/bab38932-9d77-446e-b294-79cd89de870c/sand?v=1648601755215"
+          />
+        </button>
+        <button
+          id="button5"
+          onclick="guess(5)"
+          onmousedown="play(5); lightButton(5);"
+          onmouseup="stop(5); clearButton(5);"
+        >
+          <img
+            id="img5"
+            class="hidden"
+            src="https://cdn.glitch.global/bab38932-9d77-446e-b294-79cd89de870c/Asphalt.jpg?v=1648589984111"
+            height="100%"
+            width="100%"
+          />
+          <audio
+            id="sound5"
+            src="https://cdn.glitch.global/bab38932-9d77-446e-b294-79cd89de870c/LNJMQEH-car-horn.mp3?v=1648601963662"
+          />
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
