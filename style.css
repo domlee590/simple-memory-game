@@ -1,0 +1,112 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  font-family: verdana, arial, sans-serif;
+  margin: 2em;
+  background-color: steelblue;
+  color: white;
+}
+
+h1 {
+  font-family: "Times New Roman", serif;
+}
+
+button {
+  padding: 15px;
+  border-radius: 20px;
+}
+
+button:hover {
+  border-color: white;
+}
+
+#mistakes {
+  padding: 10px;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+
+#time {
+  padding: 10px;
+  border: 5px solid black;
+  border-radius: 20px;
+  background: orange
+}
+
+#score {
+  padding: 10px;
+  border: 5px solid black;
+  border-radius: 20px;
+  background: red;
+}
+
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+  background: lightgreen;
+}
+
+#button1.lit {
+  background: green;
+}
+
+#button2 {
+  background: lightblue;
+}
+
+#button2.lit {
+  background: blue;
+}
+
+#button3 {
+  background: pink;
+}
+
+#button3.lit {
+  background: red;
+}
+
+#button4 {
+  background: lightyellow;
+}
+
+#button4.lit {
+  background: yellow;
+}
+
+#button5 {
+  background: grey;
+}
+
+#button5.lit {
+  background: black;
+}
+
+.center {
+  text-align: center;
+}
+
+img {
+  border-radius: 50%;
+}
