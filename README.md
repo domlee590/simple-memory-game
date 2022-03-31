@@ -64,7 +64,7 @@ _Note that the paterns in the videos are different, as they are random. The butt
 
 1. **If you used any outside resources to help complete your submission (websites, books, people, etc) list them here.**
 
-   I did not use many outside resources besides reading articles on W3 Schools, where I learned how to implements some of the optional features and even those of my own.
+   I did not use many outside resources besides reading articles on W3 Schools, where I learned how to implement some of the optional features and even those of my own.
 
 2. **What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)**
 
